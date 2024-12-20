@@ -18,15 +18,10 @@ Install the required dependencies:
 
     pip3 install flask
 
+Usage
+-----
 Run the application:
 
 .. code-block:: bash
 
-    python3 letterboxd_fan_finder.py
-
-Usage
------
-
-Once the application is running, it will open in a new tab in your default browser:
-
-http://127.0.0.1:5000/
+    streamlit run streamlit_letterboxd_fan_finder.py

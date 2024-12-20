@@ -68,11 +68,10 @@ def save_films_to_csv(films, filename):
 
 def main():
     st.title("Letterboxd Top Ratings")
-
     users_input = st.text_area("Enter Letterboxd username(s), separated by commas:", "")
+    
     if users_input:
         users = [user.strip() for user in users_input.split(",")]
-
         user_films = {user: get_user_films(user) for user in users}
         
         if len(users) == 1:
