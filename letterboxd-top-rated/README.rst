@@ -17,9 +17,4 @@ Usage
 
 .. code-block:: bash
 
-    streamlit run streamlit-letterboxd-top-rati
-
-2. Open the web browser, input one or more Letterboxd usernames, and hit "⌘ + Enter."
-3. The app will display a table of films and provide the option to download a CSV containing the 5-star films.
-4. If multiple users are provided, mutual 5-star films will be compared and displayed.
-
+    streamlit run streamlit-letterboxd-top-rated
