@@ -9,7 +9,7 @@ To install the necessary dependencies, run the following command:
 
 .. code-block:: bash
 
-    pip3 install requests beautifulsoup4 tqdm
+    pip3 install streamlit requests beautifulsoup4 tqdm
 
 Usage
 -----
@@ -17,4 +17,4 @@ Usage
 
 .. code-block:: bash
 
-    streamlit run streamlit-letterboxd-top-rated
+    streamlit run streamlit-letterboxd-top-rated.py
